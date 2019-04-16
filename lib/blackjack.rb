@@ -33,9 +33,9 @@ def hit?(total)
   binding.pry
   prompt_user
   input = get_user_input
-  if input = "h"
+  if input == "h"
     total += deal_card
-  elsif input = "s"
+  elsif input == "s"
     #do nothing, just stay
   else
     invalid_command
