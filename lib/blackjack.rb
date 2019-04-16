@@ -38,12 +38,13 @@ def hit?(total)
 
   else
     invalid_command
+    hit?(total)
   end
   total
 end
 
 def invalid_command
-  # code invalid_command here
+  puts "Invalid command, please try again"
 end
 
 #####################################################
