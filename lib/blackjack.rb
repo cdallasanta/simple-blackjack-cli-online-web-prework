@@ -30,7 +30,6 @@ def initial_round
 end
 
 def hit?(total)
-  binding.pry
   prompt_user
   input = get_user_input
   if input == "h"
